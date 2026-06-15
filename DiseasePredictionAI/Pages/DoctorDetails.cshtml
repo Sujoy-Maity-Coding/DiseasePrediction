@@ -1,0 +1,22 @@
+﻿@page
+@model DiseasePredictionAI.Pages.DoctorDetailsModel
+
+<h1>Doctor Details</h1>
+
+<h2>@Model.Doctor.Name</h2>
+
+<p>
+    Department:
+    @Model.Doctor.Department
+</p>
+
+<p>
+    Model:
+    @Model.Doctor.ModelName
+</p>
+
+<a href="/Symptoms?department=@Model.Doctor.Department">
+    <button>
+        Check Symptoms
+    </button>
+</a>

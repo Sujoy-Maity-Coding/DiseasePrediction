@@ -1,0 +1,21 @@
+﻿@page
+@model DiseasePredictionAI.Pages.DoctorsModel
+
+<h1>Doctors List</h1>
+
+@foreach (var doctor in Model.Doctors)
+{
+    <div style="border:1px solid black;padding:10px;margin:10px">
+
+        <h3>@doctor.Name</h3>
+
+        <p>Department: @doctor.Department</p>
+
+        <p>Model: @doctor.ModelName</p>
+
+        <a href="/DoctorDetails?id=@doctor.Id">
+            <button>Select Doctor</button>
+        </a>
+
+    </div>
+}
