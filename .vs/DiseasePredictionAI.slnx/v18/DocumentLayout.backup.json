@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\91700\\source\\repos\\DiseasePredictionAI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23BF7CE8-2464-0376-B0FA-A55DBBFFA0A2}|DiseasePredictionAI\\DiseasePredictionAI.csproj|c:\\users\\91700\\source\\repos\\diseasepredictionai\\diseasepredictionai\\pages\\symptoms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{23BF7CE8-2464-0376-B0FA-A55DBBFFA0A2}|DiseasePredictionAI\\DiseasePredictionAI.csproj|solutionrelative:diseasepredictionai\\pages\\symptoms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{23BF7CE8-2464-0376-B0FA-A55DBBFFA0A2}|DiseasePredictionAI\\DiseasePredictionAI.csproj|c:\\users\\91700\\source\\repos\\diseasepredictionai\\diseasepredictionai\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23BF7CE8-2464-0376-B0FA-A55DBBFFA0A2}|DiseasePredictionAI\\DiseasePredictionAI.csproj|solutionrelative:diseasepredictionai\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23BF7CE8-2464-0376-B0FA-A55DBBFFA0A2}|DiseasePredictionAI\\DiseasePredictionAI.csproj|c:\\users\\91700\\source\\repos\\diseasepredictionai\\diseasepredictionai\\pages\\doctors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{23BF7CE8-2464-0376-B0FA-A55DBBFFA0A2}|DiseasePredictionAI\\DiseasePredictionAI.csproj|solutionrelative:diseasepredictionai\\pages\\doctors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23BF7CE8-2464-0376-B0FA-A55DBBFFA0A2}|DiseasePredictionAI\\DiseasePredictionAI.csproj|c:\\users\\91700\\source\\repos\\diseasepredictionai\\diseasepredictionai\\pages\\symptoms.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23BF7CE8-2464-0376-B0FA-A55DBBFFA0A2}|DiseasePredictionAI\\DiseasePredictionAI.csproj|solutionrelative:diseasepredictionai\\pages\\symptoms.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{23BF7CE8-2464-0376-B0FA-A55DBBFFA0A2}|DiseasePredictionAI\\DiseasePredictionAI.csproj|c:\\users\\91700\\source\\repos\\diseasepredictionai\\diseasepredictionai\\pages\\symptoms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23BF7CE8-2464-0376-B0FA-A55DBBFFA0A2}|DiseasePredictionAI\\DiseasePredictionAI.csproj|solutionrelative:diseasepredictionai\\pages\\symptoms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23BF7CE8-2464-0376-B0FA-A55DBBFFA0A2}|DiseasePredictionAI\\DiseasePredictionAI.csproj|c:\\users\\91700\\source\\repos\\diseasepredictionai\\diseasepredictionai\\pages\\doctors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23BF7CE8-2464-0376-B0FA-A55DBBFFA0A2}|DiseasePredictionAI\\DiseasePredictionAI.csproj|solutionrelative:diseasepredictionai\\pages\\doctors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{23BF7CE8-2464-0376-B0FA-A55DBBFFA0A2}|DiseasePredictionAI\\DiseasePredictionAI.csproj|c:\\users\\91700\\source\\repos\\diseasepredictionai\\diseasepredictionai\\pages\\doctors.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23BF7CE8-2464-0376-B0FA-A55DBBFFA0A2}|DiseasePredictionAI\\DiseasePredictionAI.csproj|solutionrelative:diseasepredictionai\\pages\\doctors.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23BF7CE8-2464-0376-B0FA-A55DBBFFA0A2}|DiseasePredictionAI\\DiseasePredictionAI.csproj|c:\\users\\91700\\source\\repos\\diseasepredictionai\\diseasepredictionai\\pages\\doctordetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23BF7CE8-2464-0376-B0FA-A55DBBFFA0A2}|DiseasePredictionAI\\DiseasePredictionAI.csproj|solutionrelative:diseasepredictionai\\pages\\doctordetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23BF7CE8-2464-0376-B0FA-A55DBBFFA0A2}|DiseasePredictionAI\\DiseasePredictionAI.csproj|c:\\users\\91700\\source\\repos\\diseasepredictionai\\diseasepredictionai\\pages\\doctordetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23BF7CE8-2464-0376-B0FA-A55DBBFFA0A2}|DiseasePredictionAI\\DiseasePredictionAI.csproj|solutionrelative:diseasepredictionai\\pages\\doctordetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23BF7CE8-2464-0376-B0FA-A55DBBFFA0A2}|DiseasePredictionAI\\DiseasePredictionAI.csproj|c:\\users\\91700\\source\\repos\\diseasepredictionai\\diseasepredictionai\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23BF7CE8-2464-0376-B0FA-A55DBBFFA0A2}|DiseasePredictionAI\\DiseasePredictionAI.csproj|solutionrelative:diseasepredictionai\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,46 +42,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "DoctorDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\91700\\source\\repos\\DiseasePredictionAI\\DiseasePredictionAI\\Pages\\DoctorDetails.cshtml",
+              "RelativeDocumentMoniker": "DiseasePredictionAI\\Pages\\DoctorDetails.cshtml",
+              "ToolTip": "C:\\Users\\91700\\source\\repos\\DiseasePredictionAI\\DiseasePredictionAI\\Pages\\DoctorDetails.cshtml",
+              "RelativeToolTip": "DiseasePredictionAI\\Pages\\DoctorDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-16T05:40:03.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DoctorDetails.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\91700\\source\\repos\\DiseasePredictionAI\\DiseasePredictionAI\\Pages\\DoctorDetails.cshtml.cs",
+              "RelativeDocumentMoniker": "DiseasePredictionAI\\Pages\\DoctorDetails.cshtml.cs",
+              "ToolTip": "C:\\Users\\91700\\source\\repos\\DiseasePredictionAI\\DiseasePredictionAI\\Pages\\DoctorDetails.cshtml.cs",
+              "RelativeToolTip": "DiseasePredictionAI\\Pages\\DoctorDetails.cshtml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwCsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T05:39:52.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Patient.cs",
               "DocumentMoniker": "C:\\Users\\91700\\source\\repos\\DiseasePredictionAI\\DiseasePredictionAI\\Models\\Patient.cs",
               "RelativeDocumentMoniker": "DiseasePredictionAI\\Models\\Patient.cs",
               "ToolTip": "C:\\Users\\91700\\source\\repos\\DiseasePredictionAI\\DiseasePredictionAI\\Models\\Patient.cs",
               "RelativeToolTip": "DiseasePredictionAI\\Models\\Patient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-15T10:34:10.682Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Symptoms.cshtml",
-              "DocumentMoniker": "C:\\Users\\91700\\source\\repos\\DiseasePredictionAI\\DiseasePredictionAI\\Pages\\Symptoms.cshtml",
-              "RelativeDocumentMoniker": "DiseasePredictionAI\\Pages\\Symptoms.cshtml",
-              "ToolTip": "C:\\Users\\91700\\source\\repos\\DiseasePredictionAI\\DiseasePredictionAI\\Pages\\Symptoms.cshtml",
-              "RelativeToolTip": "DiseasePredictionAI\\Pages\\Symptoms.cshtml",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAqwHYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-15T10:33:31.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Doctors.cshtml",
               "DocumentMoniker": "C:\\Users\\91700\\source\\repos\\DiseasePredictionAI\\DiseasePredictionAI\\Pages\\Doctors.cshtml",
               "RelativeDocumentMoniker": "DiseasePredictionAI\\Pages\\Doctors.cshtml",
               "ToolTip": "C:\\Users\\91700\\source\\repos\\DiseasePredictionAI\\DiseasePredictionAI\\Pages\\Doctors.cshtml",
               "RelativeToolTip": "DiseasePredictionAI\\Pages\\Doctors.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-15T10:32:27.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-15T10:32:27.68Z"
             },
             {
               "$type": "Document",
@@ -79,23 +101,45 @@
               "RelativeDocumentMoniker": "DiseasePredictionAI\\Pages\\Doctors.cshtml.cs",
               "ToolTip": "C:\\Users\\91700\\source\\repos\\DiseasePredictionAI\\DiseasePredictionAI\\Pages\\Doctors.cshtml.cs",
               "RelativeToolTip": "DiseasePredictionAI\\Pages\\Doctors.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwCwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T10:32:10.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-15T10:32:10.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Symptoms.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\91700\\source\\repos\\DiseasePredictionAI\\DiseasePredictionAI\\Pages\\Symptoms.cshtml.cs",
               "RelativeDocumentMoniker": "DiseasePredictionAI\\Pages\\Symptoms.cshtml.cs",
               "ToolTip": "C:\\Users\\91700\\source\\repos\\DiseasePredictionAI\\DiseasePredictionAI\\Pages\\Symptoms.cshtml.cs",
               "RelativeToolTip": "DiseasePredictionAI\\Pages\\Symptoms.cshtml.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAuwH0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAcBAAAAAAAAAAAIwCUBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T10:28:10.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-15T10:28:10.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Symptoms.cshtml",
+              "DocumentMoniker": "C:\\Users\\91700\\source\\repos\\DiseasePredictionAI\\DiseasePredictionAI\\Pages\\Symptoms.cshtml",
+              "RelativeDocumentMoniker": "DiseasePredictionAI\\Pages\\Symptoms.cshtml",
+              "ToolTip": "C:\\Users\\91700\\source\\repos\\DiseasePredictionAI\\DiseasePredictionAI\\Pages\\Symptoms.cshtml",
+              "RelativeToolTip": "DiseasePredictionAI\\Pages\\Symptoms.cshtml",
+              "ViewState": "AgIAAIwBAAAAAAAAAAAqwKwBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T10:33:31.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\91700\\source\\repos\\DiseasePredictionAI\\DiseasePredictionAI\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "DiseasePredictionAI\\Models\\Doctor.cs",
+              "ToolTip": "C:\\Users\\91700\\source\\repos\\DiseasePredictionAI\\DiseasePredictionAI\\Models\\Doctor.cs",
+              "RelativeToolTip": "DiseasePredictionAI\\Models\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T05:39:25.665Z"
             }
           ]
         }

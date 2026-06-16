@@ -10,7 +10,7 @@ namespace DiseasePredictionAI.Pages
         [BindProperty(SupportsGet = true)]
         public string Department { get; set; } = "";
 
-        // Cardiology
+        // ---------- Shared ----------
         [BindProperty]
         public int Age { get; set; }
 
@@ -18,39 +18,154 @@ namespace DiseasePredictionAI.Pages
         public int Gender { get; set; }
 
         [BindProperty]
+        public int Fatigue { get; set; }
+
+        // ---------- Cardiology ----------
+        [BindProperty]
+        public int ChestPain { get; set; }
+
+        [BindProperty]
+        public int ShortnessBreath { get; set; }
+
+        [BindProperty]
+        public int Dizziness { get; set; }
+
+        [BindProperty]
+        public int Palpitations { get; set; }
+
+        [BindProperty]
+        public int Sweating { get; set; }
+
+        [BindProperty]
+        public int Nausea { get; set; }
+
+        [BindProperty]
         public double BloodPressure { get; set; }
+
+        [BindProperty]
+        public double HeartRate { get; set; }
 
         [BindProperty]
         public double Cholesterol { get; set; }
 
         [BindProperty]
-        public double HeartRate { get; set; }
-
-        // Orthopedic
-        [BindProperty]
-        public double PelvicIncidence { get; set; }
+        public int DiabetesHistory { get; set; }
 
         [BindProperty]
-        public double PelvicTilt { get; set; }
+        public int Smoking { get; set; }
 
         [BindProperty]
-        public double SacralSlope { get; set; }
-
-        // Psychology
-        [BindProperty]
-        public double SleepHours { get; set; }
+        public int Obesity { get; set; }
 
         [BindProperty]
-        public int StressLevel { get; set; }
+        public int FamilyHistoryHeartDisease { get; set; }
 
-        // Diabetes
+        // ---------- Orthopedic ----------
         [BindProperty]
-        public double Glucose { get; set; }
+        public int BackPain { get; set; }
+
+        [BindProperty]
+        public int NeckPain { get; set; }
+
+        [BindProperty]
+        public int JointPain { get; set; }
+
+        [BindProperty]
+        public int KneePain { get; set; }
+
+        [BindProperty]
+        public int HipPain { get; set; }
+
+        [BindProperty]
+        public int ShoulderPain { get; set; }
+
+        [BindProperty]
+        public int MuscleWeakness { get; set; }
+
+        [BindProperty]
+        public int Stiffness { get; set; }
+
+        [BindProperty]
+        public int Swelling { get; set; }
+
+        [BindProperty]
+        public int DifficultyWalking { get; set; }
+
+        [BindProperty]
+        public int PreviousInjury { get; set; }
+
+        [BindProperty]
+        public double BoneDensity { get; set; }
 
         [BindProperty]
         public double BMI { get; set; }
 
-        public string Result { get; set; } = "";
+        // ---------- Psychology ----------
+        [BindProperty]
+        public int StressLevel { get; set; }
+
+        [BindProperty]
+        public double SleepHours { get; set; }
+
+        [BindProperty]
+        public int AnxietyLevel { get; set; }
+
+        [BindProperty]
+        public int MoodSwings { get; set; }
+
+        [BindProperty]
+        public int ConcentrationProblem { get; set; }
+
+        [BindProperty]
+        public int SocialWithdrawal { get; set; }
+
+        [BindProperty]
+        public int AppetiteChange { get; set; }
+
+        [BindProperty]
+        public int PanicAttack { get; set; }
+
+        [BindProperty]
+        public int WorkPressure { get; set; }
+
+        [BindProperty]
+        public int FamilyProblems { get; set; }
+
+        [BindProperty]
+        public int DepressionScore { get; set; }
+
+        // ---------- Diabetes (General Medicine) ----------
+        [BindProperty]
+        public double Glucose { get; set; }
+
+        [BindProperty]
+        public double Insulin { get; set; }
+
+        [BindProperty]
+        public double SkinThickness { get; set; }
+
+        [BindProperty]
+        public double DiabetesPedigreeFunction { get; set; }
+
+        [BindProperty]
+        public int FrequentUrination { get; set; }
+
+        [BindProperty]
+        public int ExcessiveThirst { get; set; }
+
+        [BindProperty]
+        public int SuddenWeightLoss { get; set; }
+
+        [BindProperty]
+        public int BlurredVision { get; set; }
+
+        [BindProperty]
+        public int FamilyHistoryDiabetes { get; set; }
+
+        // ---------- Result ----------
+        public string Disease { get; set; } = "";
+        public string Medicine { get; set; } = "";
+        public string ErrorMessage { get; set; } = "";
 
         public void OnGet()
         {
@@ -67,9 +182,20 @@ namespace DiseasePredictionAI.Pages
                     Department,
                     Age,
                     Gender,
+                    ChestPain,
+                    ShortnessBreath,
+                    Dizziness,
+                    Palpitations,
+                    Fatigue,
+                    Sweating,
+                    Nausea,
                     BloodPressure,
+                    HeartRate,
                     Cholesterol,
-                    HeartRate
+                    DiabetesHistory,
+                    Smoking,
+                    Obesity,
+                    FamilyHistoryHeartDisease
                 };
             }
             else if (Department == "Orthopedic")
@@ -77,9 +203,21 @@ namespace DiseasePredictionAI.Pages
                 requestData = new
                 {
                     Department,
-                    PelvicIncidence,
-                    PelvicTilt,
-                    SacralSlope
+                    Age,
+                    Gender,
+                    BackPain,
+                    NeckPain,
+                    JointPain,
+                    KneePain,
+                    HipPain,
+                    ShoulderPain,
+                    MuscleWeakness,
+                    Stiffness,
+                    Swelling,
+                    DifficultyWalking,
+                    PreviousInjury,
+                    BoneDensity,
+                    BMI
                 };
             }
             else if (Department == "Psychology")
@@ -88,18 +226,40 @@ namespace DiseasePredictionAI.Pages
                 {
                     Department,
                     Age,
+                    Gender,
+                    StressLevel,
                     SleepHours,
-                    StressLevel
+                    AnxietyLevel,
+                    MoodSwings,
+                    ConcentrationProblem,
+                    SocialWithdrawal,
+                    Fatigue,
+                    AppetiteChange,
+                    PanicAttack,
+                    WorkPressure,
+                    FamilyProblems,
+                    DepressionScore
                 };
             }
-            else
+            else // Medicine (Diabetes)
             {
                 requestData = new
                 {
                     Department,
                     Age,
+                    Gender,
                     Glucose,
-                    BMI
+                    BMI,
+                    BloodPressure,
+                    Insulin,
+                    SkinThickness,
+                    DiabetesPedigreeFunction,
+                    FrequentUrination,
+                    ExcessiveThirst,
+                    SuddenWeightLoss,
+                    Fatigue,
+                    BlurredVision,
+                    FamilyHistoryDiabetes
                 };
             }
 
@@ -120,7 +280,14 @@ namespace DiseasePredictionAI.Pages
 
             dynamic obj = JsonConvert.DeserializeObject(result);
 
-            Result = obj.prediction;
+            if (!response.IsSuccessStatusCode)
+            {
+                ErrorMessage = obj?.error ?? "Prediction failed. Please check your inputs.";
+                return;
+            }
+
+            Disease = obj.disease;
+            Medicine = obj.medicine;
         }
     }
 }
